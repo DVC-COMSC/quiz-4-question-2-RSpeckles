@@ -19,8 +19,8 @@ for j in range(0, len(inputs)-1):
     elif len(inputs[j+1]) >= len(longest):
         longest = inputs[j+1]
 
-print(shortest)
 print(longest)
+print(shortest)
 
 # Requirement
 # No need to use list
