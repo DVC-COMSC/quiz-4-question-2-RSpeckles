@@ -4,7 +4,7 @@
 # ******************************
 inputs = []
 while True:
-    i = input("Enter some text: ")
+    i = input()
     if i != "stop" and i != "STOP":
         inputs.append(i)
     else:
